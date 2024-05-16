@@ -1,0 +1,102 @@
+.image {
+    border-radius: 1rem;
+    border: 2px solid lightgreen;
+    margin: 1.5em 2px 2px 2px;
+  }
+  
+  .titulo {
+    color: white;
+    text-align: center;
+    background-color: darkgreen;
+    margin-top: 5px;
+    margin: 5px;
+    padding: 2px; 
+    border-radius: 1rem;
+    font-family: sans-serif;
+    font-size: large;
+    margin-top: 2rem;
+  }
+  
+  .name {
+    color: black;
+    background: rgba(235, 238, 233, 0.651);
+    margin-top: 2px;
+    margin: 2px;
+    border-radius: 1rem;
+    border: 1px solid lightgreen;
+    font-family: sans-serif;
+    font-size: small;
+    margin-top: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .topContainer {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://best4pet.hr/wp-content/uploads/2019/01/blog-background-dogs.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    background: rgba(164, 177, 156, 0.651);
+    width: 38%;
+    height: 50%;
+    margin: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 0px 0px 30px 2px rgb(44, 43, 43);
+    font-family: "Dosis", sans-serif;
+    border-color: lightgreen;
+    border-radius: 1em;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  .loading {
+    text-align: center;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: lightgreen;    
+    font-size: 2rem;
+  }
+  
+  .button {
+    font-family: sans-serif;
+    background-color: #17141d;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 1rem;
+    color: white;
+    padding: 0.3em 0.85em;
+    margin-top: 1em;
+    text-transform: capitalize;
+    border: 2px solid #2a242f;
+    border-radius: 2em;
+    transition: transform 0.2s;
+    transition-timing-function: cubic-bezier(0.45, -0.85, 0.55, 0.45);
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    transform: scale(1.2);
+    text-decoration: none;
+    background: linear-gradient(to right, lightgreen, darkgreen);
+    /*   background-clip: text; */
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

@@ -1,0 +1,149 @@
+.background {
+  background-image: url("https://best4pet.hr/wp-content/uploads/2019/01/blog-background-dogs.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background: rgba(164, 177, 156, 0.651);
+  width: 38%;
+  height: 50%;
+  margin-left: 33%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-shadow: 0px 0px 30px 2px rgb(44, 43, 43);
+  font-family: "Dosis", sans-serif;
+  border-color: lightgreen;
+  border-radius: 1em;
+  border-style: solid;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo {
+  color: darkgreen;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+  color: rgb(70, 42, 42);
+  font-weight: bolder;
+}
+
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.moodDiv {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.moodDiv div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eraserbtn {
+  align-items: center;
+  background: darkred;
+  color: white;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  height: 20px;
+  width: 30px;
+}
+
+.numInput {
+  color: black;
+  background: rgba(235, 238, 233, 0.651);
+  border-radius: 1rem;
+  border: 1px solid lightgreen;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  border-width: 2px;
+  border-style: outset;
+  border-radius: 9px;
+  box-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
+  text-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
+}
+
+.btnh2 {
+  font-size: 1rem;
+  color: darkred;
+  padding-top: 1rem;
+  font-family: fantasy;
+}
+
+.btnh3 {
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: darkgreen;
+  font-family: fantasy;
+}
+
+.errorStyle1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto;
+}
+
+.errorStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto;
+  color: darkred;
+}
+
+.button {
+  font-family: sans-serif;
+  background-color: #17141d;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 1rem;
+  color: white;
+  padding: 0.3em 0.85em;
+  margin-top: 1em;
+  text-transform: capitalize;
+  border: 2px solid #2a242f;
+  border-radius: 2em;
+  transition: transform 0.2s;
+  transition-timing-function: cubic-bezier(0.45, -0.85, 0.55, 0.45);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.35s;
+}

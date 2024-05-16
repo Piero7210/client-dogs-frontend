@@ -1,0 +1,25 @@
+.selectContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: initial;
+    padding-left: 1rem;
+  }
+  
+  .filters {
+    font-family: sans-serif;
+    background-color: #17141d;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 0.7rem;
+    color: white;
+    display: block;
+    padding: 0.3em 0.85em;
+    margin: 0.7em;
+    text-transform: capitalize;
+    border: 2px solid #2a242f;
+    border-radius: 2em;
+    transition: transform 0.2s;
+    transition-timing-function: cubic-bezier(0.45, -0.85, 0.55, 0.45);
+    cursor: pointer;
+  }
+  

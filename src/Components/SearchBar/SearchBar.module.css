@@ -1,0 +1,36 @@
+.tagsearch {
+    position: relative;
+    z-index: 1;
+    display: block;
+    padding-left: 1.25em;
+    margin-left: 0.5em;
+    margin-top: 1.3rem;
+    width: 300px;
+    height: 42px;
+    font-size: 1rem;
+    border: 1px solid #282421;
+    border-radius: 0.35em;
+    background-color: #17141d;
+    color: white;
+  }
+  .error {
+    color: darkgreen;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    letter-spacing:.6px;
+}
+
+.botoncito{
+  position: relative;
+  display: block;
+  margin-top: 0.4rem;
+  margin-left: 1rem;
+  border-radius: 0.35em;
+  border: 1px solid #282421;
+  background-color: #17141d;
+  color: white;
+  cursor: pointer;  
+}
